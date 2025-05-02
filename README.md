@@ -10,6 +10,7 @@ new modern linker object format.
 - binary format allows for storage of different LTO formats. when those are used however, compatibility with multiple linker implementations gets reduced.
 - different section types, flags (thread local, ...), and permissions (read, write, execute, ...)
 - operatin systems should be able to quickly load and run files in this format if they are already fully linked.
+- allows for extern and local symbol definitiions
 
 ## configurable relocs
 
